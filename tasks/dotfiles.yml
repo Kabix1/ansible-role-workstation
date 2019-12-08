@@ -19,3 +19,9 @@
     src: "{{ temp_git.path }}/"
     dest: /home/vagrant/
   delegate_to: "{{ inventory_hostname }}"
+
+- name: Install powerlevel10k
+  git:
+    repo: https://github.com/romkatv/powerlevel10k.git
+    dest: /usr/share/zsh/plugins/powerlevel10k
+    depth: 1
