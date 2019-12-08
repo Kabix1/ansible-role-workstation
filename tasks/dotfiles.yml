@@ -8,3 +8,4 @@
   git:
     repo: ssh://git@github.com/Kabix1/voidrice
     dest: ~/
+    force: yes
