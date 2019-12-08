@@ -16,6 +16,6 @@
 
 - name: Copy voidrice configs to home folder
   synchronize:
-    src: "{{ temp_git.path }}"
+    src: "{{ temp_git.path }}/"
     dest: /home/vagrant/
   delegate_to: "{{ inventory_hostname }}"

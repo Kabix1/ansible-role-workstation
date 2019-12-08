@@ -14,9 +14,8 @@
 ** ag
 *** Install only
 ** zsh
-*** Set as default shell
-*** One dotfile and one extra config file in git
-*** Decide on theme, probably the fast 9k one
+*** TODO Decide on theme, probably the fast 9k one
+*** TODO Organize the .zshrc file, use plugins
 ** yay
 *** Ensure correct mirrors
 ** slack
