@@ -11,7 +11,7 @@
 
 - name: Add my voidrice fork
   git:
-    repo: ssh://git@github.com/Kabix1/voidrice
+    repo: https://github.com/Kabix1/voidrice
     dest: "{{ temp_git.path }}"
 
 - name: Copy voidrice configs to home folder
