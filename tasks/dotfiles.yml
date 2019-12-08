@@ -4,8 +4,18 @@
     name: ~/.git
     state: absent
 
+- name: Create temp dir for git
+  tempfile:
+    state: directory
+  register: temp_git
+
 - name: Add my voidrice fork
   git:
     repo: ssh://git@github.com/Kabix1/voidrice
+    dest: "{{ temp_git.path }}"
+
+- name: Copy voidrice configs to home folder
+  synchronize:
+    src: "{{ temp_git.path }}"
     dest: ~/
-    force: yes
+  delegate_to: "{{ inventory_hostname }}"
