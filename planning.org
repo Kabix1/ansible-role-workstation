@@ -1,0 +1,50 @@
+* Packages
+** spacemacs
+*** Fix problems
+**** Saving of layouts
+**** Saving of buffers, maybe better separation between projects/layouts
+**** Ensure no memory leaks
+*** Dotfiles
+*** Rotating theme, perhaps once a month
+*** Ensure pyenv loads for spacemacs
+** chrome
+*** Install only
+** ansible
+*** Set to not do SSH host check, maybe config file in git
+** ag
+*** Install only
+** zsh
+*** Set as default shell
+*** One dotfile and one extra config file in git
+*** Decide on theme, probably the fast 9k one
+** yay
+*** Ensure correct mirrors
+** slack
+*** Install only
+** nerdfonts
+** tmux
+*** Single dotfile in git
+*** Autostart with terminal
+*** Ensure clipboard works
+** pyenv
+*** Simplify creation of new versions
+**** Install all dev packages
+***** bpython
+***** pylookup
+***** Jinja2
+***** flake8
+***** autoflake
+***** jedi
+***** json-rpc
+***** yapf
+**** Remove old versions, virtualenv name for current?
+** ssh
+*** save public keys in git
+*** setup needed ssh hosts with correct settings
+** git
+*** set email and full name
+* General settings
+** keyboard layout
+** overall theme, rotate every month?
+** differentiate workstations visually
+*** Home computer can have more relaxed themes as an example
