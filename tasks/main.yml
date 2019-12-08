@@ -1,1 +1,3 @@
 ---
+- name: Fix dot files
+  include_tasks: dotfiles.yml

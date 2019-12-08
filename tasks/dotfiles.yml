@@ -1,0 +1,10 @@
+---
+- name: Remove Larbs voidrice repo
+  file:
+    name: ~/.git
+    state: absent
+
+- name: Add my voidrice fork
+  git:
+    repo: ssh://git@github.com/Kabix1/voidrice
+    dest: ~/
