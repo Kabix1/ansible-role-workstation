@@ -7,6 +7,10 @@
 *** Dotfiles
 *** Rotating theme, perhaps once a month
 *** Ensure pyenv loads for spacemacs
+*** Fix font with ligatures
+** terminal (Kitty)
+*** Fix font with ligatures
+*** Make it fit in with theme
 ** chrome
 *** Install only
 ** ansible
@@ -21,6 +25,7 @@
 ** slack
 *** Install only
 ** nerdfonts
+*** Pick the best font
 ** tmux
 *** Single dotfile in git
 *** Autostart with terminal

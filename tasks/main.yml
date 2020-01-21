@@ -1,3 +1,13 @@
 ---
 - name: Fix dot files
   include_tasks: dotfiles.yml
+
+- name: Fix locale
+  blockinfile:
+    path: /etc/X11/xorg.conf.d/00-keyboard.conf
+    block: |
+      Section "InputClass"
+          Identifier "system-keyboard"
+          MathIsKeyboard "on"
+          Option "XkbLayout" "se"
+      EndSection
